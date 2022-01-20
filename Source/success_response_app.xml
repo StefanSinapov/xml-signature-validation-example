@@ -1,0 +1,78 @@
+<samlp:Response ID="_c6f681b0-892f-4778-88d9-f0e655e0e766" Version="2.0" IssueInstant="2021-11-19T09:55:45.601Z" Destination="https://appidentity.negometrix.com/Saml2/_02335586-c2fb-4cfb-be4b-c9700fd2b304/Acs" InResponseTo="idb2d992c5cc00418fb0addc2d0363f57c"
+    xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+    <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">https://sts.windows.net/b05cd423-5591-4a5c-a0fa-0bb3e8f98427/</Issuer>
+    <samlp:Status>
+        <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+    </samlp:Status>
+    <Assertion ID="_2c67d0c9-c393-4f9e-b045-fd7d263b4d00" IssueInstant="2021-11-19T09:55:45.581Z" Version="2.0"
+        xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+        <Issuer>https://sts.windows.net/b05cd423-5591-4a5c-a0fa-0bb3e8f98427/</Issuer>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                <Reference URI="#_2c67d0c9-c393-4f9e-b045-fd7d263b4d00">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                    <DigestValue>v2mYJDeDjjukqD4UfKL0HjNpZ8x/Ky+C1cplAJgEjb8=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>bREUzy/3X2nbMnRBUnfaVpW3MWRks/gVEo8HGbrg5e5z21FgbprgyS1/37PTiYYitEGoEeAIqbVj2bHKUiHk5HvphUb448mwcc4zwnWdAvo1jUOWHJmolfuNbDLo+k2qqFXHWSBmhNLQI975Mz36tmkQl2pASm29zeYD7oVVHTHs/5s3V1JBHSvDAmxHv/WvSCmIsN9umSz8ysE+/G7cOsSbxV/o5Vw02+JU2WJC/HtlUTAIqfyhgOci5dtU4wSNY8c/Bcl0r3DCEDwDrnmDz7BBOKQ4Hu2sI/ZyKXRvaoxBQznKKIKwPY6+xARoAbS4U+GQ6r0OBU24hUnPrwURzg==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIC8DCCAdigAwIBAgIQfM6IqjZyhbBFlCoguutQ3jANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMDEyMTgxMjM3MDBaFw0yMzEyMTgxMjM3MDBaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3NxETXTukEIqSdLaV4+bgUYk4DwWldpfwD2bs+Cj5YRqKhAlQM/AZPkPYW+4Iq8s+yRiUdzMiD/ACRpjtLGoPw3c0RIZwZfSOcMx4pBCvTOM3tHH8/tXIRgd+6r0m0drbLkAChFY2GZtPgDmxjyT1SZIYyuoRpXXbNH1G9kBGsdL8KaF1tymkUUf4wnazvAlPtaRpNq8TnYTBI4iiepZ9tq1UfSmti4H80usyFQhzMznHK4TSP/6y4huFROjcnZIpo7+/dQ87UF++8Md3HNzp6rI16LG5ecgVx+KOIgJLcoKqgGt2z4A/q5LN9BCunfryH1cP8HAVLsurHef841c2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB6NhH7oNrJNuauW0ciTvxW38A0KXyEPJv6q0pjeWsdBsRSwa7YuLsBen7V7OlRWxJpitVf/8Km+rr22cEbl3OBrq8R0cUryIqSBgznJStrcj51gOFJZsdsC6aC4dTTNnrKPK+nYb+9gFNicQlFomOWcaB0tsRVIBUwkwGMzdTziOjNAbfnywu4qF6HB/xnsxrW03D6qgmrY9f0HYuihaEadPPFWMocJVydD67qmKqj7ZT9bt3fIypXMu7KB3LwFjitSfd17tTcQoaKHesug59FgUwXjsfplbayHRWbMsK+HGLwyzT5FwpOvpX73Jck14QhJ5Acu3QVp8+0cCVVOx3s</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+        <Subject>
+            <NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress">stefan.sinapov@negometrix.bg</NameID>
+            <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <SubjectConfirmationData InResponseTo="idb2d992c5cc00418fb0addc2d0363f57c" NotOnOrAfter="2021-11-19T10:55:45.472Z" Recipient="https://appidentity.negometrix.com/Saml2/_02335586-c2fb-4cfb-be4b-c9700fd2b304/Acs" />
+            </SubjectConfirmation>
+        </Subject>
+        <Conditions NotBefore="2021-11-19T09:50:45.472Z" NotOnOrAfter="2021-11-19T10:55:45.472Z">
+            <AudienceRestriction>
+                <Audience>_02335586-c2fb-4cfb-be4b-c9700fd2b304</Audience>
+            </AudienceRestriction>
+        </Conditions>
+        <AttributeStatement>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/tenantid">
+                <AttributeValue>b05cd423-5591-4a5c-a0fa-0bb3e8f98427</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/objectidentifier">
+                <AttributeValue>4e28997e-9824-4503-b814-b8162c7621dd</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/displayname">
+                <AttributeValue>Stefan Sinapov</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/identityprovider">
+                <AttributeValue>https://sts.windows.net/b05cd423-5591-4a5c-a0fa-0bb3e8f98427/</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/claims/authnmethodsreferences">
+                <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password</AttributeValue>
+                <AttributeValue>http://schemas.microsoft.com/claims/multipleauthn</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname">
+                <AttributeValue>Stefan</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname">
+                <AttributeValue>Sinapov</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress">
+                <AttributeValue>stefan.sinapov@negometrix.bg</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name">
+                <AttributeValue>stefan.sinapov@negometrix.bg</AttributeValue>
+            </Attribute>
+        </AttributeStatement>
+        <AuthnStatement AuthnInstant="2021-11-15T16:32:06.451Z" SessionIndex="_2c67d0c9-c393-4f9e-b045-fd7d263b4d00">
+            <AuthnContext>
+                <AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</AuthnContextClassRef>
+            </AuthnContext>
+        </AuthnStatement>
+    </Assertion>
+</samlp:Response>
+

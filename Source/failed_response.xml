@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<saml2p:Response Destination="https://appidentity.negometrix.com/Saml2/_4429ca15-5553-4c68-b49d-a8c82949b952/Acs" ID="_7938301873299804160" InResponseTo="ide220e244657643f0ba19c4859314d60c" IssueInstant="2021-11-18T17:04:59.542Z" Version="2.0"
+    xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+    <saml2:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity"
+        xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">https://idp02.hvcc.edu/idp</saml2:Issuer>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <ds:Reference URI="#_7938301873299804160">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <ds:DigestValue>kENk894NAainhwGC8A4FAuSrqO4Jpl8qdybuHHXzftI=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue> HoStuvjl7N/C81hll4SoD9GLM7wiBCbtHE2w3P7nYdoS8poMRJxRi0G3Q1FvAB80tMOHOGdu69n4 Gy4LwhrugXrYxFNtRisAVnI3XCsROkSiuJCwBr850Mz9lT4vq5KaL/1SKV26UixmfFvQbZBzXNjF NY7at50yRukwd3ep2o6ZRzc7vxz1YjR9fRGq8t03uKefwcpm576qtR4LcXcT9ncdg+pSrafVpDHG BDPQJ0QC92R4utrg1vTmb3uAAaItYAENkhVb75uPuG+pkDeKxqMpNSwg6LC34qG4F+p97GLhkxcx BySssSgj8OnJbUXhUNj7xlVrxSrsoWkQM1T3Jw==
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+MIIDGjCCAgKgAwIBAgIVAJyr7dLK4Wh1GoMCIGPyW/3Fcc9xMA0GCSqGSIb3DQEBCwUAMBkxFzAV
+BgNVBAMMDmlkcDAyLmh2Y2MuZWR1MB4XDTIwMDYxNTEwMDQ0MFoXDTQwMDYxNTEwMDQ0MFowGTEX
+MBUGA1UEAwwOaWRwMDIuaHZjYy5lZHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD4
+kQNgyOpPVBYFIqENNIZE+pRteZx8ApeouGsw52X82Rjw67nGrNZ8AHiTLt0Ser0+z8O3dr3mZpDg
+1cU+2cfjW4yvF6bPrA/T1AK6f2tHZ/Kk3yohFSCwMctnU+HTT/4Qb706rt0yI4WbSBjZZS/oGtXb
+nz3dw/91S4nxmKGjtOpjdAqByrqIWaAFoAm7FALXvwH7WymcwxnFmMBfGiXD6uKm04f67iEcse+o
+fzajdbirCLPeuZ3cfl7WivzvNFl2vEwxuKEA54MI4p4aUGIkw5lkqduj2SFjXQkoRS1JGL4QgVpP
+mAReBU3gaW1Mludmyk/wZ+lWAMyZsboqhctVAgMBAAGjWTBXMB0GA1UdDgQWBBRZ3ZbZVAW4Bgvw
+TOC/hEeiX+elszA2BgNVHREELzAtgg5pZHAwMi5odmNjLmVkdYYbaWRwMDIuaHZjYy5lZHUvaWRw
+L21ldGFkYXRhMA0GCSqGSIb3DQEBCwUAA4IBAQBFVpC63cS20vTeHkDGjEeEWnk74N0NA6rfMINE
++esv6Oifh0SSlKxzWKyu+9+L2Qa2SjVSzfM4QeikaPzSI7u6VGbvj5vDBNI8prnYD4CJG+eKodlZ
+3Pib2qN0vdj2XGrKipIPi+LpwPsoHJ000uR6isgwt0JJZaesNDoxA9nHI2ZOFspW8irymKaixjz1
+2M8FBpK9QB/triL+xRgt6rDLr6hOkwBQuBWk+I8Gw2IcDp4JT9+mOyk79qOq/J3+FTAdQ9gFP6mq
+89tSC8sLesHmYfeGH4FfxF01dYqHlMU/YMlP6Z0ZwP7t54aGPUblR5CmyYOvNwPh2vguCmYtIR2X
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <saml2p:Status xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+        <saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+    </saml2p:Status>
+    <saml2:Assertion ID="_3670145847799620608" IssueInstant="2021-11-18T17:04:59.532Z" Version="2.0"
+        xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+        <saml2:Issuer>https://idp02.hvcc.edu/idp</saml2:Issuer>
+        <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+                <ds:Reference URI="#_3670145847799620608">
+                    <ds:Transforms>
+                        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                    </ds:Transforms>
+                    <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                    <ds:DigestValue>mTIV7DdMv/SmbEDJqohsl+3mSOUC0GWSxi5PpGZta3Q=</ds:DigestValue>
+                </ds:Reference>
+            </ds:SignedInfo>
+            <ds:SignatureValue> SdnrDJmPJg6yz8NKzfy8yhT46xysquSdrv7ckCsaRAbg9sU3yq6Eiq/0RoaNxPOPWjvzyGHL93uF yLGzupm2lsm7qrJsbIxXFH1WggqntP2EPivbNI6vJaW1v2TOqjVUTKCGy1qbFG9JXadcJntRWyzx fB0SKW2pJDEdvudHSCMHBxCID64Kgb4cjAYqh2fkNOAxJqLOXavMjvL3HTpk4j07Hit7eBnSd6X2 rwDvG+HH6zvzlJJMG3rH+6m5TStv+KF+DJgy/k/J9+bbDgfg2QDEohsacmwNzeg3rSIVFAEadUKR 8FS2zbVmAEjrv/tPTSX67KAa9LP1TthwyUtlJw==
+            </ds:SignatureValue>
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDGjCCAgKgAwIBAgIVAJyr7dLK4Wh1GoMCIGPyW/3Fcc9xMA0GCSqGSIb3DQEBCwUAMBkxFzAV
+BgNVBAMMDmlkcDAyLmh2Y2MuZWR1MB4XDTIwMDYxNTEwMDQ0MFoXDTQwMDYxNTEwMDQ0MFowGTEX
+MBUGA1UEAwwOaWRwMDIuaHZjYy5lZHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD4
+kQNgyOpPVBYFIqENNIZE+pRteZx8ApeouGsw52X82Rjw67nGrNZ8AHiTLt0Ser0+z8O3dr3mZpDg
+1cU+2cfjW4yvF6bPrA/T1AK6f2tHZ/Kk3yohFSCwMctnU+HTT/4Qb706rt0yI4WbSBjZZS/oGtXb
+nz3dw/91S4nxmKGjtOpjdAqByrqIWaAFoAm7FALXvwH7WymcwxnFmMBfGiXD6uKm04f67iEcse+o
+fzajdbirCLPeuZ3cfl7WivzvNFl2vEwxuKEA54MI4p4aUGIkw5lkqduj2SFjXQkoRS1JGL4QgVpP
+mAReBU3gaW1Mludmyk/wZ+lWAMyZsboqhctVAgMBAAGjWTBXMB0GA1UdDgQWBBRZ3ZbZVAW4Bgvw
+TOC/hEeiX+elszA2BgNVHREELzAtgg5pZHAwMi5odmNjLmVkdYYbaWRwMDIuaHZjYy5lZHUvaWRw
+L21ldGFkYXRhMA0GCSqGSIb3DQEBCwUAA4IBAQBFVpC63cS20vTeHkDGjEeEWnk74N0NA6rfMINE
++esv6Oifh0SSlKxzWKyu+9+L2Qa2SjVSzfM4QeikaPzSI7u6VGbvj5vDBNI8prnYD4CJG+eKodlZ
+3Pib2qN0vdj2XGrKipIPi+LpwPsoHJ000uR6isgwt0JJZaesNDoxA9nHI2ZOFspW8irymKaixjz1
+2M8FBpK9QB/triL+xRgt6rDLr6hOkwBQuBWk+I8Gw2IcDp4JT9+mOyk79qOq/J3+FTAdQ9gFP6mq
+89tSC8sLesHmYfeGH4FfxF01dYqHlMU/YMlP6Z0ZwP7t54aGPUblR5CmyYOvNwPh2vguCmYtIR2X</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </ds:Signature>
+        <saml2:Subject>
+            <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress" NameQualifier="_4429ca15-5553-4c68-b49d-a8c82949b952" SPNameQualifier="_4429ca15-5553-4c68-b49d-a8c82949b952">w.jojo@hvcc.edu</saml2:NameID>
+            <saml2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <saml2:SubjectConfirmationData InResponseTo="ide220e244657643f0ba19c4859314d60c" NotOnOrAfter="2021-11-18T17:05:14.530Z" Recipient="https://appidentity.negometrix.com/Saml2/_4429ca15-5553-4c68-b49d-a8c82949b952/Acs" />
+            </saml2:SubjectConfirmation>
+        </saml2:Subject>
+        <saml2:Conditions NotBefore="2021-11-18T17:04:44.534Z" NotOnOrAfter="2021-11-18T17:05:14.534Z">
+            <saml2:AudienceRestriction>
+                <saml2:Audience>_4429ca15-5553-4c68-b49d-a8c82949b952</saml2:Audience>
+            </saml2:AudienceRestriction>
+        </saml2:Conditions>
+        <saml2:AuthnStatement AuthnInstant="2021-11-18T17:04:59.530Z" SessionIndex="ST-61533-1-O75INCkR6Xh3g-qvJPuyCYyYU-idp02">
+            <saml2:SubjectLocality Address="151.103.18.138" />
+            <saml2:AuthnContext>
+                <saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml2:AuthnContextClassRef>
+            </saml2:AuthnContext>
+        </saml2:AuthnStatement>
+        <saml2:AttributeStatement>
+            <saml2:Attribute FriendlyName="mail" Name="mail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                <saml2:AttributeValue>w.jojo@hvcc.edu</saml2:AttributeValue>
+            </saml2:Attribute>
+        </saml2:AttributeStatement>
+    </saml2:Assertion>
+</saml2p:Response>
+
